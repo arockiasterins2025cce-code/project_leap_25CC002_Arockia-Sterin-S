@@ -10,7 +10,7 @@
         MYSQL_USER: leap_user
         MYSQL_PASSWORD: leap_pass
       ports:
-        - "3306:3306"
+        - "3307:3306"
       volumes:
         - mysql_data:/var/lib/mysql
       healthcheck:
